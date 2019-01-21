@@ -17,6 +17,7 @@
 
 int main()
 {
+	std::cout << "Write your ticket number.";
 	int number;
 	std::cin >> number;
 	int first = number / 1000;
