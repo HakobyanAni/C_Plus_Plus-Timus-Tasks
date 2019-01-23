@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <algorithm>
 
@@ -24,8 +24,8 @@
 // to these sections.'
 
 // Input
-// The first line contains the number n of sections in the wall(3 ? n ? 1000).In the second line you are given n positive integers ai,
-// which are the forces of the magic field acting on each section(1 ? ai ? 106).
+// The first line contains the number n of sections in the wall(3 ≤ n ≤ 1000).In the second line you are given n positive integers ai,
+// which are the forces of the magic field acting on each section(1 ≤ ai ≤ 106).
 
 // Output
 // Output two integers separated with a space.They should be the maximum total force of the field acting on three consecutive sections
