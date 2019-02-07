@@ -40,6 +40,7 @@ int main()
 		{
 			++count;
 		}
+		
 		else
 		{
 			std::cout << count << " " << V[i];
