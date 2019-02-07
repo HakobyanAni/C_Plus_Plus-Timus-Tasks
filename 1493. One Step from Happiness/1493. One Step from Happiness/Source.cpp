@@ -36,7 +36,6 @@ int main()
 		else
 			std::cout << "No";
 	}
-	
 	else if (first_numb_sum < second_numb_sum)
 	{
 		if ((std::abs(first_numb_sum - second_numb_sum) == 1) && ((second - 1) / 100 + (second - 1) % 100 / 10 + (second - 1) % 10) == first_numb_sum)
