@@ -1,4 +1,6 @@
-﻿// 2012. About Grisha N.
+﻿#include <iostream>
+
+// 2012. About Grisha N.
 
 // Grisha N. told his two teammates that he was going to solve all given problems at the subregional contest, even if the teammates
 // wouldn’t show up at the competition. The teammates didn’t believe Grisha so he told them the plan how he was going to do this.
@@ -12,12 +14,11 @@
 // Output
 // Output “YES”, if Grisha manages to solve all the given problems alone, and “NO” if he doesn’t.
 
-#include <iostream>
-
 int main()
 {
 	int f;
 	std::cin >> f;
+
 	if ((1 <= f && f <= 11) && ((12 - f) <= 60 * 4 / 45))
 	{
 		std::cout << "YES";
